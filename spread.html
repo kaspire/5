@@ -308,7 +308,7 @@ function card(a){
   const foot = document.getElementById('footer');
   const noteWrap = el('div','foot-note');
   if(WELCOME_URL && !/^PASTE_/.test(WELCOME_URL)){
-    const a = el('a',null,'Full welcome guide');
+    const a = el('a',null,'Assets Specification');
     a.href = WELCOME_URL; a.target='_blank'; a.rel='noopener noreferrer';
     noteWrap.appendChild(a);
     noteWrap.appendChild(el('span',null,'  ·  '));
